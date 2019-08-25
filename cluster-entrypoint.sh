@@ -9,7 +9,7 @@ set -e
 
 # Do the cluster dance
 rabbitmqctl stop_app
-rabbitmqctl join_cluster --disc rabbit@rabbitmq1
+rabbitmqctl join_cluster rabbit@rabbitmq1
 
 #this command requires the 'rabbit' app to be running on the target node.
 #Start it with 'rabbitmqctl start_app'.
