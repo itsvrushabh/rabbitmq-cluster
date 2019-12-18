@@ -1,7 +1,6 @@
-version: '3.3'
+version: "3.7"
 
 services:
-
   rabbitmq1:
     image: rabbitmq:3-management
     hostname: rabbitmq1
@@ -32,7 +31,7 @@ services:
     volumes:
       - ./cluster-entrypoint.sh:/usr/local/bin/cluster-entrypoint.sh
     entrypoint: /usr/local/bin/cluster-entrypoint.sh
-    
+
   haproxy:
     image: haproxy:1.7
     volumes:

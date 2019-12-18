@@ -14,9 +14,9 @@ The main benifit with this approach is that you can use [any version](https://hu
 
 Most things will be how you expect:
 
-* The default username and password are `guest`/`guest`
-* The broker accepts connections on `localhost:5672`
-* The Management interface is found at `localhost:15672`
+- The default username and password are `guest`/`guest`
+- The broker accepts connections on `localhost:5672`
+- The Management interface is found at `localhost:15672`
 
 ## Customize
 
@@ -32,8 +32,6 @@ It should be fairly easy to add a [`port mapping`](https://docs.docker.com/compo
 
 I wrote [a blog post](http://fellowdeveloper.se/2017/05/24/cluster-rabbitmq-in-docker/) that explains some of the ideas behind this repo.
 
-
 https://github.com/pardahlman/docker-rabbitmq-cluster.git
 
 https://blog.flux7.com/blogs/tutorials/how-to-creating-highly-available-message-queues-using-rabbitmq
-
